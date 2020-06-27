@@ -10,8 +10,8 @@
 section {
   font-family: fantasy;
   background-color: aqua;
-  height: 120vh;
-  padding-top: 80px;
+  height: 100vh;
+  padding-top: 40px;
 }
 
 .tip-div {
@@ -46,7 +46,7 @@ input[type="text"]:hover {
 }
 
 input[type="range"] {
-  width: 20rem;
+  width: 15rem;
 }
 
 label {
@@ -66,6 +66,9 @@ label {
     padding-top: 100px;
   }
   input[type="text"] {
+    width: 20rem;
+  }
+  input[type="range"] {
     width: 20rem;
   }
 }

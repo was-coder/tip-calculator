@@ -11,7 +11,7 @@ section {
   font-family: fantasy;
   background-color: aqua;
   height: 120vh;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .tip-div {
@@ -34,7 +34,7 @@ section {
 }
 
 input[type="text"] {
-  width: 20rem;
+  width: 15rem;
   height: 3rem;
   padding-left: 0.5rem;
   border-radius: 10px;
@@ -63,6 +63,10 @@ label {
   }
   .tip-div {
     width: 70%;
+    padding-top: 100px;
+  }
+  input[type="text"] {
+    width: 20rem;
   }
 }
 

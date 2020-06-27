@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A calculator for giving tip">
+    <link rel="stylesheet" href="/tip-calc/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap" rel="stylesheet">
+    <title>tipcalc.com</title>
+</head>
+<body>
+    
+    <section>
+
+        <div class="p-3 tip-div" id="container">
+
+            <h2 class="text-uppercase tip-div__h2">let's tip up</h2>
+            <hr class="tip-div__hr">
+    
+            <legend class="my-3">
+                
+                <label for="total" class="text-capitalize">
+                    total bill : <br>
+                    <input type="text" placeholder="Enter Amount Spent" id="total">
+                </label> <br>
+                <label for="person" class="text-capitalize">
+                    split/person : <br>
+                    <input type="range" id="split" min="1" max="10" value="1">
+                    <span id="split__span"></span>
+                    <label for="tip" class="text-capitalize">
+                </label> <br>
+                    tip : <br>
+                    <input type="range" id="tip" value="0">
+                    <span id="tip__span"></span>
+                </label>
+            </legend>
+            <hr class="tip-div__hr">
+    
+            <label class="text-capitalize mt-3">new bill <span>(per person) : </span></label>
+            <span class="total__span text-primary" id="get-bill"></span><br>
+            <label class="text-capitalize mt-2">tip amount <span>(per person) : </span></label>
+            <span class="total__span text-primary" id="get-tip"></span>
+    
+        </div>
+        
+    </section>
+
+
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+</body>
+</html>

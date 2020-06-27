@@ -21,7 +21,7 @@
 section {
     font-family: fantasy;
     background-color: aqua;
-    height: 100vh;
+    height: 120vh;
     padding-top: 100px;
 }
 
@@ -30,10 +30,9 @@ section {
     width: 90%;
     border: 10px solid rgba(12, 14, 12, 0.514);
     border-radius: 20px;
-
     &__h2 {
         text-align: center;
-        font-size: 50px;
+        font-size: 35px;
     }
 
     &__hr {
@@ -70,10 +69,14 @@ label {
 }
 
 @include tablet {
+    section {
+        height: 100vh;
+    }
     
     .tip-div {
         width: 70%;
     }
+
 }
 
 @include large {

@@ -2,7 +2,7 @@ document.getElementById('container').onchange = function () {
     var getTotal = Number(document.getElementById('total').value);
     var getSplit = Number(document.getElementById('split').value);
     var getTip = Number(document.getElementById('tip').value);
-    var tipValue = getTotal + getTip - 100;
+    var tipValue = getTotal + getTip - 1;
     var billCalc = (getTotal + tipValue) / getSplit;
     var tipCalc = tipValue / getSplit;
 

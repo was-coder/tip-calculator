@@ -65,10 +65,6 @@ label {
 @media (min-width: 700px) {
   .tip-div {
     width: 70%;
-    padding-top: 100px;
-  }
-  input[type="text"] {
-    width: 20rem;
   }
   input[type="range"] {
     width: 20rem;

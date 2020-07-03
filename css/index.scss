@@ -18,18 +18,20 @@
     box-sizing: border-box;
 }
 
-section {
+.tip-section {
     font-family: fantasy;
     background-color: aqua;
-    height: 120vh;
-    padding-top: 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .tip-div {
-    margin: auto;
+    margin:auto;
     width: 90%;
     border: 10px solid rgba(12, 14, 12, 0.514);
     border-radius: 20px;
+    
     &__h2 {
         text-align: center;
         font-size: 35px;
@@ -69,7 +71,7 @@ label {
 }
 
 @include tablet {
-    section {
+    .tip-section {
         height: 100vh;
     }
     

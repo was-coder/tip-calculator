@@ -7,11 +7,16 @@
           box-sizing: border-box;
 }
 
-section {
+.tip-section {
   font-family: fantasy;
   background-color: aqua;
-  height: 120vh;
-  padding-top: 30px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tip-div {
@@ -58,7 +63,7 @@ label {
 }
 
 @media (min-width: 700px) {
-  section {
+  .tip-section {
     height: 100vh;
   }
   .tip-div {

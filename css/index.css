@@ -63,9 +63,6 @@ label {
 }
 
 @media (min-width: 700px) {
-  .tip-section {
-    height: 100vh;
-  }
   .tip-div {
     width: 70%;
     padding-top: 100px;

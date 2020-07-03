@@ -8,6 +8,6 @@ document.getElementById('container').onchange = function () {
 
     document.getElementById('split__span').innerHTML = getSplit;
     document.getElementById('tip__span').innerHTML = getTip + "%";
-    document.getElementById('get-bill').innerHTML = billCalc.toFixed(0) + " Naira";
-    document.getElementById('get-tip').innerHTML = tipCalc.toFixed(0) + " Naira";
+    document.getElementById('get-bill').innerHTML = "<s>N</s>" + billCalc.toFixed(0);
+    document.getElementById('get-tip').innerHTML = "<s>N</s>" + tipCalc.toFixed(0);
 }
